@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TripGo - Book hotels, flights and explore destinations across India and the world.">
+    <title>TripGo | Travel Booking</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <a href="#" class="logo">
+                    <div class="logo-icon"><i class="fa-solid fa-plane-departure"></i></div>
+                    <span class="logo-text">Trip<span>Go</span></span>
+                </a>
+            </div>
+
+            <div class="nav-links">
+                <div class="nav-item nav-fav">
+                    <i class="fa-solid fa-heart" style="color: #c12534;"></i>
+                    Favorites
+                </div>
+
+                <div class="nav-item nav-lang">
+                    <i class="fa-solid fa-globe" style="color: #1d54b4;"></i>
+                    <select name="lang" id="lang">
+                        <option value="SELECT LANGUAGE">SELECT LANGUAGE</option>
+                        <option value="ENGLISH UK">ENGLISH UK</option>
+                        <option value="HINDI">HINDI</option>
+                        <option value="ENGLISH US">ENGLISH US</option>
+                        <option value="BANGLA">BANGLA</option>
+                        <option value="MORE...">MORE...</option>
+                    </select>
+                </div>
+
+                <div class="nav-item nav-map">
+                    <i class="fa-solid fa-location-dot" style="color: #031230;"></i>
+                    Map
+                </div>
+
+                <div class="nav-item nav-signin">
+                    <i class="fa-regular fa-user"></i>
+                    Sign-in
+                </div>
+            </div>
+
+            <button class="nav-menu-toggle" aria-label="Toggle menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Heading -->
+    <div class="head-sec">
+        <div class="heading">
+            <h2>We provide you the best experience.</h2>
+            <h3>We search. You save!</h3>
+        </div>
+    </div>
+
+    <!-- Search Panel -->
+    <div class="navpanel">
+        <div class="search-field">
+            <i class="fa-solid fa-plane-departure"></i>
+            <div>
+                <div class="field-label">Where to?</div>
+                <p>Enter destination</p>
+            </div>
+        </div>
+
+        <div class="search-field">
+            <i class="fa-solid fa-plane-arrival"></i>
+            <div>
+                <div class="field-label">Where from?</div>
+                <p>Enter origin</p>
+            </div>
+        </div>
+
+        <div class="search-field nav-checkin">
+            <i class="fa-regular fa-calendar-days" style="color: #254f98;"></i>
+            <div>
+                <div class="field-label">Check-in</div>
+                <p>_ _ / _ _ / _ _</p>
+            </div>
+        </div>
+
+        <div class="search-field nav-checkout">
+            <i class="fa-regular fa-calendar-days" style="color: #254f98;"></i>
+            <div>
+                <div class="field-label">Check-out</div>
+                <p>_ _ / _ _ / _ _</p>
+            </div>
+        </div>
+
+        <div class="nav-virtual-tour">
+            <i class="fa-solid fa-camera-retro" style="color: #25282d;"></i>
+            Virtual tour
+        </div>
+
+        <div class="nav-search">
+            <button>SEARCH</button>
+        </div>
+    </div>
+
+    <!-- Hero Banner -->
+    <div class="hero-section">
+        <div class="hero-bg">
+            <div class="hero-msg">
+                <h2>Book your next stay. <a href="#">Click here to know the availability.</a></h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Top Hotels -->
+    <div class="comments">
+        <h2>Take a look at these top-notch hotels</h2>
+    </div>
+
+    <div class="Shop-section">
+        <div class="box1 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('hotel8.avif');"></div>
+                <h3>Hotel Valencia Center</h3>
+                <div class="rating-badge"><i class="fa-solid fa-star"></i> 8.7 Very Good (5988)</div>
+                <h6><i class="fa-solid fa-location-dot"></i> Valencia, Spain</h6>
+                <button>Check Price</button>
+                <p>See more</p>
+            </div>
+        </div>
+
+        <div class="box2 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('hotel2.avif');"></div>
+                <h3>Hotel Santa Marta</h3>
+                <div class="rating-badge"><i class="fa-solid fa-star"></i> 9.0 Excellent (9088)</div>
+                <h6><i class="fa-solid fa-location-dot"></i> Malaga, Spain</h6>
+                <button>Check Price</button>
+                <p>See more</p>
+            </div>
+        </div>
+
+        <div class="box3 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('d2d8521d8e1bec3f94195d108634616b7985df17b27797e2fa08dfa780d6.avif');"></div>
+                <h3>Magic Natura Resort</h3>
+                <div class="rating-badge"><i class="fa-solid fa-star"></i> 8.8 Excellent (7768)</div>
+                <h6><i class="fa-solid fa-location-dot"></i> Maldives</h6>
+                <button>Check Price</button>
+                <p>See more</p>
+            </div>
+        </div>
+
+        <div class="box4 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('hotel4.avif');"></div>
+                <h3>Hotel Tarik</h3>
+                <div class="rating-badge"><i class="fa-solid fa-star"></i> 8.9 Outstanding (6768)</div>
+                <h6><i class="fa-solid fa-location-dot"></i> Madrid, Spain</h6>
+                <button>Check Price</button>
+                <p>See more</p>
+            </div>
+        </div>
+
+        <div class="more">
+            <h4>Explore more <i class="fa-solid fa-arrow-right"></i></h4>
+        </div>
+
+        <div class="comments" style="grid-column: 1 / -1; padding: 0; margin: 1rem 0 0;">
+            <h2>Explore the diversity of India</h2>
+        </div>
+
+        <div class="box5 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('IMG-20240904-WA0005.jpg');"></div>
+                <h2>Meghalaya</h2>
+                <h4>HOTELS (734)</h4>
+                <h4>AVG PRICE <i class="fa-solid fa-indian-rupee-sign"></i> 3890</h4>
+                <p>See more</p>
+            </div>
+        </div>
+
+        <div class="box6 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('IMG-20240904-WA0015.jpg');"></div>
+                <h2>Kashmir</h2>
+                <h4>HOTELS (984)</h4>
+                <h4>AVG PRICE <i class="fa-solid fa-indian-rupee-sign"></i> 5432</h4>
+                <p>See more</p>
+            </div>
+        </div>
+
+        <div class="box7 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('IMG-20240904-WA0014.jpg');"></div>
+                <h2>Darjeeling</h2>
+                <h4>HOTELS (898)</h4>
+                <h4>AVG PRICE <i class="fa-solid fa-indian-rupee-sign"></i> 2356</h4>
+                <p>See more</p>
+            </div>
+        </div>
+
+        <div class="box8 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('IMG-20240904-WA0040.jpg');"></div>
+                <h2>Goa</h2>
+                <h4>HOTELS (1612)</h4>
+                <h4>AVG PRICE <i class="fa-solid fa-indian-rupee-sign"></i> 4567</h4>
+                <p>See more</p>
+            </div>
+        </div>
+
+        <div class="more">
+            <h4>Explore more <i class="fa-solid fa-arrow-right"></i></h4>
+        </div>
+    </div>
+
+    <!-- Promo Banner -->
+    <div class="navtanel">
+        <div class="nav-panel-promo">
+            <div class="nav-img"></div>
+            <div class="promo-overlay">
+                <h3>Discover Your Dream Destination</h3>
+                <p>Exclusive deals on luxury stays across 50+ countries</p>
+                <button class="promo-btn">View Deals <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="foot-panel1">
+            Back to Top <i class="fa-solid fa-chevron-up" style="margin-left: 0.5rem;"></i>
+        </div>
+
+        <div class="foot-panel2">
+            <ul>
+                <h4>Get to Know Us</h4>
+                <a>Company</a>
+                <a>Jobs</a>
+                <a>Press</a>
+                <a>Investor relations</a>
+                <a>Mobile apps - searching on the go</a>
+                <a>TripGo Business Studio</a>
+            </ul>
+
+            <ul>
+                <h4>Make Money with Us</h4>
+                <a>Become an Affiliate</a>
+                <a>Advertise Your thoughts</a>
+                <a>Self-Publish with Us</a>
+                <a>See More Make Money with Us</a>
+            </ul>
+
+            <ul>
+                <h4>Gift Cards</h4>
+                <a>TripGo E-card</a>
+                <a>Terms and conditions</a>
+                <a>Reload Your Balance</a>
+            </ul>
+
+            <ul>
+                <h4>Let Us Help You</h4>
+                <a>Legal information</a>
+                <a>Privacy notice</a>
+                <a>DSA information</a>
+                <a>Cyber security</a>
+                <a>Help</a>
+            </ul>
+        </div>
+
+        <div class="foot-panel3">
+            &copy; 2026 TripGo. All rights reserved. | Your journey begins here.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
